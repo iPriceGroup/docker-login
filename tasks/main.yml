@@ -1,0 +1,6 @@
+---
+# tasks/main.yml
+
+- name: shell | docker login
+  shell: >
+    docker login --username={{ docker_registry_username }} --password={{ docker_registry_password }} {{ docker_registry_url }}

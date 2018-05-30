@@ -1,0 +1,12 @@
+---
+# tests/test.yml
+
+- hosts: "localhost"
+
+  vars:
+    - docker_registry_url: "registry-endpoint"
+    - docker_registry_username: "registry-user"
+    - docker_registry_password: "registry-password"
+
+  roles:
+    - "docker-login"

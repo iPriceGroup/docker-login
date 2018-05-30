@@ -1,0 +1,33 @@
+---
+# meta/mail.yml
+
+galaxy_info:
+  author: "Anton Bormotov"
+  description: "Grant user access to a private docker registry"
+  company: "ipricegroup Sdn Bhd"
+  license: "BSD"
+  min_ansible_version: 1.2
+  github_branch: "master"
+  platforms:
+  - name: "Ubuntu"
+    versions:
+      - "precise"
+      - "trusty"
+      - "xenial"
+      - "yakkety"
+  - name: "Debian"
+    versions:
+      - "jessie"
+  - name: "Amazon"
+    versions:
+      - "any"
+  - name: "EL"
+    versions:
+      - "6"
+      - "7"
+  categories:
+    - "docker"
+  galaxy_tags:
+    - "docker-login"
+
+dependencies: []
