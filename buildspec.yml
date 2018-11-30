@@ -1,0 +1,7 @@
+---
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - docker run --rm -v $PWD:/yaml sdesbure/yamllint yamllint *.yml
