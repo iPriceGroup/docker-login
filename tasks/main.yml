@@ -1,7 +1,8 @@
 ---
 # tasks/main.yml
 
-- name: shell | docker login
+- name: shell | docker
+login
   shell: >
     docker login
     --username={{ docker_registry_username }}
