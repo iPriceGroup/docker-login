@@ -9,22 +9,22 @@ galaxy_info:
   min_ansible_version: 1.2
   github_branch: "master"
   platforms:
-  - name: "Ubuntu"
-    versions:
-      - "precise"
-      - "trusty"
-      - "xenial"
-      - "yakkety"
-  - name: "Debian"
-    versions:
-      - "jessie"
-  - name: "Amazon"
-    versions:
-      - "any"
-  - name: "EL"
-    versions:
-      - "6"
-      - "7"
+    - name: "Ubuntu"
+      versions:
+        - "precise"
+        - "trusty"
+        - "xenial"
+        - "yakkety"
+    - name: "Debian"
+      versions:
+        - "jessie"
+    - name: "Amazon"
+      versions:
+        - "any"
+    - name: "EL"
+      versions:
+        - "6"
+        - "7"
   categories:
     - "docker"
   galaxy_tags:
